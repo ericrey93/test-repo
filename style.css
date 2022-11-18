@@ -1,0 +1,54 @@
+.nav {
+    display: inline; 
+    position: relative;
+    color: white;
+    left: 800px;
+    padding: 18px;
+}
+
+.navHead {
+    background-color: blueviolet;
+    border: solid black 10px;
+}
+
+.title {
+    font-size: xx-large;
+    font-style: italic;
+    position: relative;
+    left: 600px;
+    width: 200px;
+    color: green;
+}
+
+#pic {
+    width: 300px;
+    position: relative;
+    left: 450px;
+    display: block;
+    border: solid purple 10px;
+    margin: 30px;
+    
+}
+
+p {
+    position: absolute;
+    color: red;
+    font-size: larger;
+    font-style: italic;
+    left: 50px;
+    outline: auto;
+    margin: 1px;
+
+}
+.headertwo {
+    background-color: yellow;
+    padding: 5px;
+    position: relative;
+    border: solid greenyellow 10px;
+}
+
+.listtwo {
+    position:relative;
+    left: 600px;
+
+}
