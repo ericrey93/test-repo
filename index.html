@@ -9,29 +9,46 @@
 
 <body>
     
-    <header class="navHead">
-    <h1 class="nav"><a href="https://github.com/">Github</a></h1> 
-    <h1 class="nav"><a href="#">Portfolio</a></h1>
-    <h1 class="nav"><a href="#contact">Contact</a></h1>
+    <header>
+        <nav class="text-right">
+            <ul>
+                <li> <a href="https://github.com/">Github</a></li> 
+                <li> <a href="#">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <h1 class="title"><strong>Own Webpage</strong></h1>
-    <section>
-  <img src="" alt="Coming Soon">
-    </section>
-    <section>    
-     <p class="p">Hey all! My name is Eric, and this is actually my first time creating a webpage. I am hoping to make this semi-presentable as it is my first webpage!</p>
-    </section>
- <br>
- <br>
-    <section class="headertwo">
-        <h1 class="title">Contact Me</h1>
-        <ul class="list">
-            <li class="listtwo">Name:</li>
-            <li class="listtwo">Email:</li>
-        </ul>
-    </section>
 
+    <main>
+        <h1 class="text-center">My New Website</h1>
+        <figure>
+            <img src="/asset/image_1.png" alt="Image with Coming Soon text">
+            <p class="text-center">My name is Yade Yada and this is my first attempt at creating a webpage</p>
+        </figure>
+        <section id="contact">
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        @ 2022 My New Website Productions
+    </footer>
+    
 </body>
-
 </html>
