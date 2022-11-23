@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .nav {
     display: inline; 
     position: relative;
@@ -8,7 +14,7 @@
 
 .navHead {
     background-color: blueviolet;
-    border: solid black 10px;
+    border-bottom: solid black 10px;
 }
 
 .title {
@@ -50,5 +56,4 @@ p {
 .listtwo {
     position:relative;
     left: 600px;
-
 }
